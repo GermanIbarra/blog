@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
 
-	$name = 'Jeffrey';
+
+Route::get('/', function () {
     return view('welcome');
 });
 
